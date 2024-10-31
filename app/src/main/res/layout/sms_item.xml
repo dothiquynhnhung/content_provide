@@ -1,0 +1,30 @@
+<!-- res/layout/sms_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#ffffff"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="16dp">
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: "
+        android:textSize="16sp"
+        android:textColor="#FF6200EE"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message content"
+        android:textSize="14sp"
+        android:textColor="#333"
+        android:paddingTop="4dp"/>
+</LinearLayout>
